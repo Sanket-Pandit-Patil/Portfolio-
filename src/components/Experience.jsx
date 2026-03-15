@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Calendar, MapPin, Briefcase, GraduationCap } from 'lucide-react';
+import { Calendar, MapPin, Briefcase, GraduationCap, Award } from 'lucide-react';
 
 const Experience = () => {
     const timeline = [
