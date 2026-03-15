@@ -15,12 +15,12 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <GitHubSection />
         <About />
         <ProblemSolving />
-        <Skills />
         <Experience />
+        <Skills />
         <Learning />
+        <GitHubSection />
         <Projects />
       </main>
       <Contact />
