@@ -4,31 +4,31 @@ import { Calendar, MapPin, Briefcase, GraduationCap } from 'lucide-react';
 const Experience = () => {
     const timeline = [
         {
-            type: 'education',
-            title: "Bachelor of Technology in CS Engineering",
-            organization: "IIIT Tiruchirappalli",
-            location: "Tiruchirappalli, Tamil Nadu",
-            date: "2022 — 2026",
-            description: "Focusing on Software Engineering, Data Structures, Algorithms, and Machine Learning. Consistently maintaining a strong academic record.",
-            icon: <GraduationCap size={20} className="text-brand-emerald" />
-        },
-        {
             type: 'leadership',
-            title: "Vice-President & Athletics Head",
-            organization: "Zenith Club (Sports Club)",
-            location: "IIIT Trichy",
-            date: "2023 — 2025",
-            description: "Led the sports department for 2 years. Organized inter-college meets and managed various sports teams, fostering leadership and discipline.",
+            title: "Vice-President",
+            organization: "Zenith Sports Club",
+            location: "IIIT UNA",
+            date: "2024 — 2025",
+            description: "Elected as VP to oversee club operations, strategic planning, and inter-college collaboration for all sporting activities.",
             icon: <Briefcase size={20} className="text-brand-emerald" />
         },
         {
-            type: 'achievement',
-            title: "Competitive Programmer",
-            organization: "LeetCode & CodeChef",
-            location: "Remote",
-            date: "2022 — Present",
-            description: "Solved 550+ problems on LeetCode. Achieved a 3-star rating on CodeChef with a peak rating of 1626.",
-            icon: <Calendar size={20} className="text-brand-emerald" />
+            type: 'leadership',
+            title: "Athletics Head",
+            organization: "Zenith Sports Club",
+            location: "IIIT UNA",
+            date: "2023 — 2024",
+            description: "Led the athletics department, organized 10+ events including 'Spardha' (annual sports meet), and managed a team of 40+ student volunteers.",
+            icon: <Award size={20} className="text-brand-emerald" />
+        },
+        {
+            type: 'education',
+            title: "B.Tech in CS Engineering",
+            organization: "IIIT UNA",
+            location: "UNA,HP",
+            date: "2022 — 2026",
+            description: "Core focus on Software Engineering, Systems Architecture, and Data Science.",
+            icon: <GraduationCap size={20} className="text-brand-emerald" />
         }
     ];
 

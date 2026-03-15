@@ -5,18 +5,18 @@ const About = () => {
     const highlights = [
         {
             icon: <Code2 className="text-brand-emerald" />,
-            title: "Problem Solver",
-            text: "Strong knowledge of Data Structures and Algorithms with a focus on efficient solutions."
+            title: "Development",
+            text: "Passionate about backend systems, scalable microservices, and high-performance full-stack architectures."
         },
         {
             icon: <Rocket className="text-brand-emerald" />,
-            title: "Tech Enthusiast",
-            text: "Experience building full-stack web applications and data-driven projects."
+            title: "Data & ML",
+            text: "Leveraging data analysis and machine learning to drive intelligent, data-driven solutions."
         },
         {
             icon: <Users className="text-brand-emerald" />,
-            title: "Leader",
-            text: "Served as Athletics Head and Vice President of Sports Club for 2 years."
+            title: "Leadership",
+            text: "Athletics Head and VP of Sports Club. Managed teams and organized major events for 2+ years."
         }
     ];
 
@@ -36,15 +36,13 @@ const About = () => {
                         </h3>
                         <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
                             <p>
-                                I'm a passionate developer focused on building scalable backend systems,
-                                intelligent APIs, and robust full-stack applications. My journey in
-                                Computer Science has been driven by curiosity and a desire to create
-                                impactful technology.
+                                I am a <span className="text-white font-medium">final-year Computer Science Engineering student</span> at IIIT UNA with a deep fascination for architecting scalable binary solutions.
                             </p>
                             <p>
-                                Beyond coding, I've honed my leadership skills through my roles in
-                                college sports organizations, where I learned the value of teamwork,
-                                discipline, and effective communication.
+                                My journey is driven by a commitment to <span className="text-white font-medium">building robust backend systems</span> and high-impact digital experiences. I thrive on solving complex logic and optimizing performance across the entire technology stack.
+                            </p>
+                            <p>
+                                Beyond my technical focus, I lead as the <span className="text-white font-medium">Athletics Head and Vice President of our Sports Club</span>, where I manage institutional events and foster teamwork in competitive environments.
                             </p>
                         </div>
                     </div>

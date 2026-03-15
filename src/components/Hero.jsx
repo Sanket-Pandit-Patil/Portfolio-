@@ -44,29 +44,38 @@ const Hero = () => {
 
                     <motion.h1
                         variants={item}
-                        className="text-6xl md:text-8xl font-black tracking-tight mb-8 leading-[1.1]"
+                        className="text-4xl md:text-6xl font-black tracking-tight mb-8 leading-tight"
                     >
-                        Architecting <br />
-                        <span className="text-gradient">Digital Impact</span>
+                        Sanket Patil — <span className="text-gradient">Software Development Engineer</span>
                     </motion.h1>
 
                     <motion.p
                         variants={item}
-                        className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed"
+                        className="text-lg md:text-xl text-gray-400 max-w-4xl mx-auto mb-12 leading-relaxed"
                     >
-                        Hi, I'm <span className="text-white font-bold italic underline decoration-brand-emerald decoration-2 underline-offset-4">Sanket Patil</span>.
-                        I build high-performance systems and intelligent user experiences across the stack.
+                        Full Stack Developer | Frontend | Backend | Data Analyst | Machine Learning Enthusiast.
+                        Passionate about <span className="text-white font-bold">building scalable applications</span> and
+                        <span className="text-white font-bold"> data-driven solutions</span>.
                     </motion.p>
 
                     <motion.div
                         variants={item}
-                        className="flex flex-wrap justify-center gap-6"
+                        className="flex flex-wrap justify-center gap-4"
                     >
-                        <a href="#projects" className="px-10 py-5 bg-brand-emerald text-brand-dark font-black rounded-2xl flex items-center gap-2 hover:bg-white transition-all transform hover:scale-105 active:scale-95 shadow-xl shadow-brand-emerald/20">
-                            Builds <ArrowRight size={20} />
+                        <a href="#projects" className="px-6 py-3 bg-brand-emerald text-brand-dark font-black rounded-xl flex items-center gap-2 hover:bg-white transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-brand-emerald/20">
+                            View Projects
                         </a>
-                        <a href="https://drive.google.com/file/d/1R6m3s4lY0C6b3BmLshGDpcH2Jgs3jww3/view?usp=sharing" target="_blank" className="px-10 py-5 glass text-white font-black rounded-2xl flex items-center gap-2 hover:bg-white/10 transition-all transform hover:scale-105 active:scale-95 border-white/10">
-                            <FileText size={20} /> Resume
+                        <a href="https://github.com/Sanket-Pandit-Patil/" target="_blank" className="px-6 py-3 glass text-white font-black rounded-xl flex items-center gap-2 hover:bg-white/10 transition-all transform hover:scale-105">
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/sanket-patil" target="_blank" className="px-6 py-3 glass text-white font-black rounded-xl flex items-center gap-2 hover:bg-white/10 transition-all transform hover:scale-105">
+                            LinkedIn
+                        </a>
+                        <a href="https://drive.google.com/file/d/1R6m3s4lY0C6b3BmLshGDpcH2Jgs3jww3/view?usp=sharing" target="_blank" className="px-6 py-3 glass text-white font-black rounded-xl flex items-center gap-2 hover:bg-white/10 transition-all transform hover:scale-105">
+                            Resume
+                        </a>
+                        <a href="#contact" className="px-6 py-3 glass text-white font-black rounded-xl flex items-center gap-2 hover:bg-white/10 transition-all transform hover:scale-105">
+                            Contact Me
                         </a>
                     </motion.div>
                 </motion.div>

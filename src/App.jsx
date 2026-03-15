@@ -1,10 +1,12 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import GitHubSection from './components/GitHubSection';
+import ProblemSolving from './components/ProblemSolving';
 import Experience from './components/Experience';
 import About from './components/About';
 import Skills from './components/Skills';
+import Learning from './components/Learning';
 import Projects from './components/Projects';
-import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 
 function App() {
@@ -13,11 +15,13 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <Experience />
+        <GitHubSection />
         <About />
+        <ProblemSolving />
         <Skills />
+        <Experience />
+        <Learning />
         <Projects />
-        <Achievements />
       </main>
       <Contact />
 

@@ -39,22 +39,22 @@ const Contact = () => {
                         viewport={{ once: true }}
                         className="glass p-10 rounded-3xl"
                     >
-                        <form className="space-y-6">
+                        <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
-                                    <label className="block text-sm font-mono text-gray-500 mb-2 uppercase">Name</label>
-                                    <input type="text" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-brand-emerald/50 transition-colors" placeholder="John Doe" />
+                                    <label className="block text-xs font-mono text-gray-500 mb-2 uppercase tracking-widest">Name</label>
+                                    <input type="text" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-brand-emerald/50 transition-colors text-white" placeholder="Sanket Patil" />
                                 </div>
                                 <div>
-                                    <label className="block text-sm font-mono text-gray-500 mb-2 uppercase">Email</label>
-                                    <input type="email" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-brand-emerald/50 transition-colors" placeholder="john@example.com" />
+                                    <label className="block text-xs font-mono text-gray-500 mb-2 uppercase tracking-widest">Email</label>
+                                    <input type="email" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-brand-emerald/50 transition-colors text-white" placeholder="patilsanket.work@gmail.com" />
                                 </div>
                             </div>
                             <div>
-                                <label className="block text-sm font-mono text-gray-500 mb-2 uppercase">Message</label>
-                                <textarea rows="4" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-brand-emerald/50 transition-colors resize-none" placeholder="Let's talk about..."></textarea>
+                                <label className="block text-xs font-mono text-gray-500 mb-2 uppercase tracking-widest">Message</label>
+                                <textarea rows="4" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:outline-none focus:border-brand-emerald/50 transition-colors resize-none text-white" placeholder="Hi Sanket, I'd like to discuss..."></textarea>
                             </div>
-                            <button disabled className="w-full py-4 bg-brand-emerald text-brand-dark font-bold rounded-xl hover:bg-white transition-colors flex items-center justify-center gap-2">
+                            <button className="w-full py-4 bg-brand-emerald text-brand-dark font-black rounded-xl hover:bg-white transition-all transform active:scale-[0.98] flex items-center justify-center gap-2">
                                 Send Message <ExternalLink size={18} />
                             </button>
                         </form>
