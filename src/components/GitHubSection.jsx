@@ -32,8 +32,8 @@ const GitHubSection = () => {
                     <div className="lg:col-span-2 grid grid-cols-2 md:grid-cols-4 gap-4">
                         {[
                             { label: "Repos", value: "35+", icon: <Layout size={18} /> },
-                            { label: "Stars", value: "116", icon: <Star size={18} /> },
-                            { label: "Forks", value: "24", icon: <GitBranch size={18} /> },
+                            { label: "Stars", value: "0", icon: <Star size={18} /> },
+                            { label: "Forks", value: "0", icon: <GitBranch size={18} /> },
                             { label: "Commits", value: "450+", icon: <Github size={18} /> }
                         ].map((stat, idx) => (
                             <motion.div
